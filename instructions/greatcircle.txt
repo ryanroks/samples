@@ -1,0 +1,7 @@
+acos(
+cos(radians(lat1))
+* cos(radians(lat2))
+* cos(radians(lon1) - radians(lon2))
++ sin(radians(lat1))
+* sin(radians(lat2))
+)
